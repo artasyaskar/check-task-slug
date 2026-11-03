@@ -1,0 +1,13 @@
+{
+  "cluster_name": "fintech-prod-eks-01",
+  "trusted_proxy_cidrs": [
+    "10.244.0.0/16",
+    "172.17.0.0/16"
+  ],
+  "services": {
+    "ingress_nginx": "10.244.0.15",
+    "auth_service": "10.244.0.22",
+    "payment_processor": "10.244.1.50",
+    "vault_sync": "10.244.1.75"
+  }
+}

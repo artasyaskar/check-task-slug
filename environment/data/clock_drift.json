@@ -1,0 +1,15 @@
+{
+  "authoritative_source": "auth_service (UTC NTP pool)",
+  "offsets": [
+    {
+      "service": "ingress_nginx",
+      "recorded_drift_seconds": 18.4,
+      "formula": "UTC = Proxy_Time - 18.4s"
+    },
+    {
+      "service": "worker_nodes",
+      "recorded_drift_seconds": 0.0,
+      "formula": "UTC = Worker_Time"
+    }
+  ]
+}
