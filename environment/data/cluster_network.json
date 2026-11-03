@@ -1,8 +1,7 @@
 {
   "cluster_name": "fintech-prod-eks-01",
   "trusted_proxy_cidrs": [
-    "10.244.0.0/16",
-    "172.17.0.0/16"
+    "10.244.0.0/16"
   ],
   "services": {
     "ingress_nginx": "10.244.0.15",

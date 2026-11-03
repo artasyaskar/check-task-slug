@@ -12,3 +12,4 @@ A separate verifier container mounts the declared artifacts and executes determi
 
 ## Relevant experience
 Senior DevOps engineer, SOC analyst, and Digital Forensics / Incident Response (DFIR) specialist with experience in container security, Kubernetes audit logging, and network proxy architecture.
+
