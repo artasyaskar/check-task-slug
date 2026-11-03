@@ -20,3 +20,4 @@ COPY data/ /app/data/
 WORKDIR /app
 
 CMD ["/bin/bash"]
+

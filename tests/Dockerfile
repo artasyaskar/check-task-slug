@@ -16,3 +16,4 @@ COPY . /tests/
 WORKDIR /tests
 
 CMD ["/bin/bash", "/tests/test.sh"]
+
