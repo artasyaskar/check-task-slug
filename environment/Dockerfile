@@ -27,9 +27,10 @@ RUN rm -f /etc/apt/sources.list.d/debian.sources && \
     rm -f /etc/apt/apt.conf.d/90snapshot && \
     rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p /app/data /app/rules
+RUN mkdir -p /app/data /app/rules /app/tools
 
 COPY data/ /app/data/
+COPY tools/ /app/tools/
 
 WORKDIR /app
 
